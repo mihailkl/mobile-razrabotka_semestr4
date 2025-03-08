@@ -1,0 +1,8 @@
+<resources>
+    <string name="header">Пример относительной разметки</string>
+    <string name="app_name">pr3</string>
+    <string name="button_1_text">Перейти ко второй активности</string>
+    <string name="button_2_text">Перейти к третьей активности</string>
+    <string name="button_3_text">Назад</string>
+    <string name="input_text">Ввод текста:</string>
+</resources>
