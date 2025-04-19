@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bottom_motherboard"
+        android:icon="@drawable/motherboard_icon"
+        android:title="Материнские платы" />
+    <item
+        android:id="@+id/bottom_storage"
+        android:icon="@drawable/ssd_icon"
+        android:title="SSD" />
+    <item
+        android:id="@+id/bottom_psu"
+        android:icon="@drawable/ps_icon"
+        android:title="Блоки питания" />
+</menu>

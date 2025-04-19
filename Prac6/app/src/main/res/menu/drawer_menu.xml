@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_cpu"
+        android:icon="@drawable/proc_icon"
+        android:title="Процессоры" />
+    <item
+        android:id="@+id/nav_gpu"
+        android:icon="@drawable/video_icon"
+        android:title="Видеокарты" />
+    <item
+        android:id="@+id/nav_ram"
+        android:icon="@drawable/ram_icon"
+        android:title="Оперативная память" />
+    <item
+        android:id="@+id/nav_second_activity"
+        android:icon="@android:drawable/ic_menu_compass"
+        android:title="Перейти к BottomBar" />
+</menu>
