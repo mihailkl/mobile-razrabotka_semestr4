@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Prac10</string>
+    <string-array name="priority_levels">
+        <item>Низкий</item>
+        <item>Средний</item>
+        <item>Высокий</item>
+    </string-array>
+</resources>
