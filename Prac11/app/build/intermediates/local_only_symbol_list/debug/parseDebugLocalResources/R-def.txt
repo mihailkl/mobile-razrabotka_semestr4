@@ -1,0 +1,36 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color purple_200
+color purple_500
+color teal_200
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id button_animation
+id button_delayed
+id button_notif
+id button_notify
+id button_play
+id button_player
+id button_stop
+id button_webview
+id combo_button
+id fade
+id image
+id main
+id move_button
+id scale_text
+id webview
+layout activity_animation
+layout activity_main
+layout activity_notification
+layout activity_player
+layout activity_web_view
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.Prac11
+style Theme.Prac11
+xml backup_rules
+xml data_extraction_rules
