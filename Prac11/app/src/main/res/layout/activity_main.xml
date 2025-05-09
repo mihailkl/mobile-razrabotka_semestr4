@@ -38,8 +38,20 @@
         android:text="Animation активность"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button_player"
-        app:layout_constraintVertical_bias="0.108" />
+        app:layout_constraintVertical_bias="0.087" />
+
+    <Button
+        android:id="@+id/button_notif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notification активность"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_animation"
+        app:layout_constraintVertical_bias="0.102" />
 </androidx.constraintlayout.widget.ConstraintLayout>

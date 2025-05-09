@@ -24,5 +24,9 @@ public class MainActivity extends AppCompatActivity {
 		buttonAnim.setOnClickListener(v -> {
 			startActivity(new Intent(this, AnimationActivity.class));
 		});
+		Button buttonNotif = findViewById(R.id.button_notif);
+		buttonNotif.setOnClickListener(v -> {
+			startActivity(new Intent(this, NotificationActivity.class));
+		});
 	}
 }
