@@ -5,7 +5,14 @@ plugins {
 android {
     namespace = "ru.mihailkl.notepadapp"
     compileSdk = 35
-
+    signingConfigs {
+        create("release") {
+            storeFile = file("my-release-key.jks")  // путь к keystore
+            storePassword = "m1wlakpuk000"
+            keyAlias = "my-alias"
+            keyPassword = "m1wlakpuk000"
+        }
+    }
     defaultConfig {
         applicationId = "ru.mihailkl.notepadapp"
         minSdk = 24
@@ -20,6 +27,7 @@ android {
         release {
             isMinifyEnabled = false
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
+            signingConfig = signingConfigs.getByName("release")
         }
     }
     compileOptions {
